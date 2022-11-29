@@ -541,9 +541,7 @@ def func_get_daily_price(int_p_no,
                         str_sSizyouC,
                         class_cust_property
                         ):
-    # 送信項目の解説は、マニュアル「立花証券・ｅ支店・ＡＰＩ（ｖ〇）、REQUEST I/F、機能毎引数項目仕様」
-    # p4/46 No.5 引数名:CLMKabuNewOrder を参照してください。
-
+    
     req_item = [class_req()]
     str_p_sd_date = func_p_sd_date(datetime.datetime.now())     # システム時刻を所定の書式で取得
 
