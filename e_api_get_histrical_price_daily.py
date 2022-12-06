@@ -414,7 +414,10 @@ def func_logout(int_p_no, class_cust_property):
 
 
 # 参考資料（必ず最新の資料を参照してください。）--------------------------
-#マニュアル
+#立花証券・ｅ支店・ＡＰＩ専用ページ
+#５．マニュアル
+#１．共通説明
+#（３）ブラウザからの利用方法
 #「ｅ支店・ＡＰＩ、ブラウザからの利用方法」
 # (api_web_access.xlsx)
 # シート「マスタ・時価」
@@ -423,7 +426,7 @@ def func_logout(int_p_no, class_cust_property):
 #  を参照してください。
 #
 # 要求
-# 1	sCLMID      CLMMfdsGetMarketPrice
+# 1	sCLMID      CLMMfdsGetMarketPriceHistory
 # 2	sIssueCode  対象の銘柄コード、１要求１銘柄指定。
 # 3	sSizyouC    対象の市場コード（現在"00":東証のみ）、引数省略可能（デフォルト＝東証）。
 #
