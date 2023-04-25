@@ -61,7 +61,9 @@ APIバージョン： v4r3で動作確認
 
 １１）追記、「指数・為替の株価取得.csv」を追加しました。
 
-	指数と為替で、株価のスナップショット（e_api_get_price_from_file.py）と
-	株価の日足（e_api_get_histrical_price_daily.py ）を使い取得できる情報を調べました。
+	指数と為替で、
+	  a)株価のスナップショット（e_api_get_price_from_file.py）
+	  b)株価の日足（e_api_get_histrical_price_daily.py ）
+	を利用して取得できる情報を調べました。
 	指数、為替の銘柄コード、銘柄名は、銘柄マスターの個別取得（e_api_get_master_kobetsu.py ）で、
 	sTargetCLMID:'CLMIssueMstOther'と指定することで取得できます。
