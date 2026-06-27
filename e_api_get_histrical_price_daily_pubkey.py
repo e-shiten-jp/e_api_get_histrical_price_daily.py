@@ -639,7 +639,7 @@ if __name__ == "__main__":
         'p_no':                 str(my_p_no),
         'p_sd_date':            func_p_sd_date(),
 
-        'sCLMID':               'CLMMfdsGetMarketPriceHistory', # 新規注文を指示。
+        'sCLMID':               'CLMMfdsGetMarketPriceHistory', # 時価情報問合取得
         'sIssueCode':           S_ISSUE_CODE,                   # 10.銘柄コード
         'sSizyouC':             S_SIZYOU_C,                     # 11.市場           00:東証   現在(2021/07/01)、東証のみ可能。
         'sJsonOfmt':            str_sJsonOfmt                   # 表示形式（サポートへの問い合わせでは'5'を指定指定した送信電文と受信電文で。）
